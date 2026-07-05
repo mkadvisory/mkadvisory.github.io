@@ -1,0 +1,65 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B2E17"/>
+      <stop offset="0.5" stop-color="#0F3D1F"/>
+      <stop offset="1" stop-color="#0A241A"/>
+    </linearGradient>
+    <linearGradient id="mk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B5E20"/>
+      <stop offset="0.55" stop-color="#2E7D32"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E0C766"/>
+      <stop offset="1" stop-color="#C9A227"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.24"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#10B981" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="1040" cy="120" r="240" fill="#10B981" fill-opacity="0.10"/>
+  <circle cx="150" cy="560" r="200" fill="#22C55E" fill-opacity="0.08"/>
+
+  <!-- Crest mark -->
+  <g transform="translate(86,84) scale(1.44)">
+    <path d="M18 7H46Q57 7 57 18V30Q57 46 32 58Q7 46 7 30V18Q7 7 18 7Z" fill="url(#mk)"/>
+    <path d="M18 7H46Q57 7 57 18V30Q57 46 32 58Q7 46 7 30V18Q7 7 18 7Z" fill="url(#sheen)"/>
+    <path d="M20 11H44Q52.5 11 52.5 19.5V29.6Q52.5 43 32 53.4Q11.5 43 11.5 29.6V19.5Q11.5 11 20 11Z" fill="none" stroke="#fff" stroke-opacity="0.3" stroke-width="1.2"/>
+    <g fill="#fff" transform="translate(32,25) scale(0.6) translate(-33,-30)">
+      <path d="M12 42V18h4.5l5.4 10.8L27.3 18H31.7v24h-4.3V27.6l-4.7 9.3h-1.5l-4.7-9.3V42H12Z"/>
+      <path d="M35 42V18h4.4v10.1L48.8 18h5.3l-8.9 10.8L54.4 42h-5.4l-6.5-9.2-2.1 2.4V42H35Z"/>
+    </g>
+    <path d="M26.2 41.5l3.8 3.9 8.8-9.2" fill="none" stroke="url(#gold)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="200" y="132" font-family="Inter, sans-serif" font-size="34" font-weight="800" fill="#ffffff">MK Advisory</text>
+  <text x="200" y="164" font-family="Inter, sans-serif" font-size="17" font-weight="600" letter-spacing="3" fill="#10B981">SMART ADVICE. STRONGER FUTURE.</text>
+
+  <!-- Headline -->
+  <text x="90" y="330" font-family="Inter, sans-serif" font-size="82" font-weight="800" letter-spacing="-2" fill="#ffffff">Your Finances.</text>
+  <text x="90" y="428" font-family="Inter, sans-serif" font-size="82" font-weight="800" letter-spacing="-2" fill="url(#gold)">Our Expertise.</text>
+
+  <text x="92" y="492" font-family="Inter, sans-serif" font-size="26" font-weight="500" fill="#CBD5E1">Tax · GST · Registrations · NRI &amp; F&amp;O Filing — done right, on time.</text>
+
+  <!-- CTA pill -->
+  <rect x="90" y="524" width="330" height="62" rx="31" fill="url(#mk)"/>
+  <text x="255" y="563" font-family="Inter, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Book Free Consultation</text>
+
+  <rect x="440" y="524" width="230" height="62" rx="31" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.5"/>
+  <text x="555" y="563" font-family="Inter, sans-serif" font-size="22" font-weight="600" fill="#ffffff" text-anchor="middle">+91 98212 99970</text>
+
+  <!-- Trust chips -->
+  <g font-family="Inter, sans-serif" font-size="19" font-weight="600" fill="#A7F3D0">
+    <text x="900" y="300">✓  1000+ Returns Filed</text>
+    <text x="900" y="352">✓  300+ Happy Clients</text>
+    <text x="900" y="404">✓  99% Satisfaction</text>
+    <text x="900" y="456">✓  100% Confidential</text>
+  </g>
+</svg>
