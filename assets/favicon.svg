@@ -1,0 +1,25 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MK Advisory">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B5E20"/><stop offset=".55" stop-color="#2E7D32"/><stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E0C766"/><stop offset="1" stop-color="#C9A227"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield: safety & protection -->
+  <path d="M18 7H46Q57 7 57 18V30Q57 46 32 58Q7 46 7 30V18Q7 7 18 7Z" fill="url(#g)"/>
+  <path d="M18 7H46Q57 7 57 18V30Q57 46 32 58Q7 46 7 30V18Q7 7 18 7Z" fill="url(#sheen)"/>
+  <!-- Reinforced inner rim -->
+  <path d="M20 11H44Q52.5 11 52.5 19.5V29.6Q52.5 43 32 53.4Q11.5 43 11.5 29.6V19.5Q11.5 11 20 11Z" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="1.2"/>
+  <!-- MK monogram: relationship & name -->
+  <g fill="#fff" transform="translate(32,25) scale(0.6) translate(-33,-30)">
+    <path d="M12 42V18h4.5l5.4 10.8L27.3 18H31.7v24h-4.3V27.6l-4.7 9.3h-1.5l-4.7-9.3V42H12Z"/>
+    <path d="M35 42V18h4.4v10.1L48.8 18h5.3l-8.9 10.8L54.4 42h-5.4l-6.5-9.2-2.1 2.4V42H35Z"/>
+  </g>
+  <!-- Gold trust check -->
+  <path d="M26.2 41.5l3.8 3.9 8.8-9.2" fill="none" stroke="url(#gold)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
